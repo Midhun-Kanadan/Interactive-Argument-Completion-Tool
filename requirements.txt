@@ -1,0 +1,8 @@
+streamlit==1.4.0
+vertexai==0.3.1
+google-auth==2.3.3
+chromadb==0.1.1
+transformers==4.10.0
+torch==1.10.0
+datasets==1.15.1
+python-dotenv==0.19.2
