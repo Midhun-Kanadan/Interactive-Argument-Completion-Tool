@@ -1,5 +1,8 @@
 # Interactive-Argument-Completion-Tool
 
+![Logo](images/logo.png)
+
+
 This project aims to build an interactive argument completion tool using Retrieval-Augmented Generation (RAG) methodology. The tool leverages ChromaDB for vector storage and similarity search, and Vertex AI for text generation. The dataset used for generating arguments is from the HuggingFace dataset [MidhunKanadan/arguments_and_summaries](https://huggingface.co/datasets/MidhunKanadan/arguments_and_summaries).
 
 ## Methodology
