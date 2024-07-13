@@ -64,7 +64,42 @@ The tool follows the Retrieval-Augmented Generation (RAG) approach, which involv
 - Users can see the context sentences along with their IDs.
 
 
-### Running the Application
+## How to Run
 
-```sh
-streamlit run app.py
+### Prerequisites
+
+- Docker installed on your machine.
+- Google Cloud credentials JSON file.
+
+### Steps to Run
+
+1. **Pull the Docker image:**
+
+    \`\`\`sh
+    docker pull midhunkanadan/argument-completion-tool:latest
+    \`\`\`
+
+2. **Run the Docker container:**
+
+    \`\`\`sh
+    docker run -p 8501:8501 -v /path/to/your/credentials.json:/app/credentials/credentials.json midhunkanadan/argument-completion-tool
+    \`\`\`
+
+    Replace \`/path/to/your/credentials.json\` with the actual path to your Google Cloud credentials JSON file.
+
+3. **Access the application:**
+
+    Open your web browser and navigate to \`http://localhost:8501\`.
+
+## Usage
+
+- Enter your partial argument or statement in the text area.
+- Click the \"Complete\" button to generate positive, negative, and neutral completions.
+- Use the \"Show Context\" button to display similar summaries used for generating completions.
+- Clear the conversation using the \"Clear Conversation\" button.
+
+## Author
+
+Midhun Kanadan
+
+- [LinkedIn](https://www.linkedin.com/in/midhunkanadan/)
